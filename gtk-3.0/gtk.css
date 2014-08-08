@@ -1,16 +1,16 @@
 /* default color scheme */
-@define-color bg_color #eff0f2;
-@define-color fg_color #425669;
-@define-color base_color #ffffff;
-@define-color text_color #34495E;
-@define-color selected_bg_color #2C3E50;
-@define-color selected_fg_color #1abc9c;
-@define-color tooltip_bg_color #2C3E50;
-@define-color tooltip_fg_color #EFF0F2;
+@define-color bg_color #ECF0F1;
+@define-color fg_color #2C3E50;
+@define-color base_color #FBFCFC;
+@define-color text_color #2C3E50;
+@define-color selected_bg_color #1ABC9C;
+@define-color selected_fg_color #ffffff;
+@define-color tooltip_bg_color #34495E;
+@define-color tooltip_fg_color #e2e8ea;
 
 /* dark color scheme */
 @define-color dark_bg_color #34495E;
-@define-color dark_fg_color #EFF0F2;
+@define-color dark_fg_color #e2e8ea;
 
 /* colormap actually used by the theme, to be overridden in other css files */
 @define-color theme_bg_color @bg_color;
@@ -35,10 +35,10 @@
 @define-color question_bg_color rgb (252, 229, 213);
 @define-color error_fg_color rgb (185, 74, 72);
 @define-color error_bg_color rgb (242, 222, 222);
-@define-color link_color #fc6f5d;
-@define-color success_color #53a93f;
-@define-color warning_color #f57900;
-@define-color error_color #cc0000;
+@define-color link_color #2E8ECE;
+@define-color success_color #16A085;
+@define-color warning_color #F1C40F;
+@define-color error_color #E74C3C;
 
 /* widget colors */
 @define-color titlebar_bg_color @dark_bg_color;

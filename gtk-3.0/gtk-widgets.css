@@ -1263,11 +1263,11 @@ GtkModelButton.button:selected {
 
 .notebook.header {
     border-width: 0;
-    background-color: shade(@theme_base_color, 0.85);
+    background-color: @theme_base_color;
 }
 
 .notebook.header.frame {
-    border-color: shade(@theme_base_color, 0.75);
+    border-color: @theme_base_color;
 }
 
 .notebook.header.frame.top {
